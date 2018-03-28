@@ -23,10 +23,6 @@ edit | 布尔值 是否开启编辑功能 false页面的表单为readonly
 sort | json数据类型 对表单进行排序
 
 
-
-适用于大型表单构建，上百数量的表单构建，更轻松的构建表单
-
-
 简单使用： 
 
 ````javascript
@@ -36,4 +32,8 @@ $('#form').compile({
    sort: json.sort,
    validate: json.validate
 )}
+
+适用于大型表单构建，上百数量的表单构建，更轻松的构建表单
+
+
 ````
